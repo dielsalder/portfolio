@@ -1,5 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import socialImage from "../assets/social.svg";
 ---
 
-<Layout />
+<Layout>
+  <Image src={socialImage} alt="Social" />
+</Layout>

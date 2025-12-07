@@ -1,7 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Image from "astro/components/Image.astro";
+import nameImage from "../assets/name.svg";
 ---
 
 <Layout>
-  <h1 class="bg-mint">Astro</h1>
+  <Image src={nameImage} alt="Jude He" />
 </Layout>
