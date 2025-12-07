@@ -2,12 +2,18 @@
 import "../styles/global.css";
 ---
 
+<style>
+  body {
+    font-family: "Futura";
+  }
+</style>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
   </head>
-  <slot />
-
+  <body class="mx-40 mt-20 bg-surface text-onSurface">
+    <slot />
+  </body>
 </html>
