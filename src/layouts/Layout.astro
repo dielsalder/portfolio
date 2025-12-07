@@ -1,4 +1,5 @@
 ---
+import { ClientRouter } from "astro:transitions";
 import Navigation from "../components/Navigation.astro";
 import "../styles/global.css";
 ---
@@ -9,6 +10,7 @@ import "../styles/global.css";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <title>Jude He</title>
+    <ClientRouter />
   </head>
   <body class="mx-40 mt-18 bg-surface text-onSurface">
     <Navigation />
