@@ -1,5 +1,7 @@
 @import "tailwindcss";
 @theme {
+  --default-font-family: Futura;
+  --font-sans: Futura, ui-sans-serif, system-ui, sans-serif
   --color-peach-50: oklch(0.967 0.016 17.55);
   --color-peach-100: oklch(0.926 0.038 17.9);
   --color-peach-200: oklch(0.863 0.074 18.71);
